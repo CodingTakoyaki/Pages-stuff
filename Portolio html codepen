@@ -1,87 +1,71 @@
 <header>
   <link href="https://fonts.googleapis.com/css?family=Dosis|Oxygen|Questrial|Quicksand|Lato|Roboto" rel="stylesheet">
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>  
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </header>
- 
 
- <div class="pageOne container" id="p1">
-   <div class="block text-center">
-   <h1>Hello there, welcome. </h1>
-   <p id="intro">My name is Amed, and I'm into coding and web development.<br>This is my portfolio page, where I showcase some of the things I've worked on.<br>Here are some of the places where you can find me:
-   </p>
-   </div>
-   <div class="btnList text-center btn-lg">
-     <a id="btnOne" class="btn btn-default" href="https://twitter.com/AmedShields" target="_blank"><i class="fa fa-twitter"></i> Twitter </a>
-     <a id="btnTwo" class="btn btn-default" href="https://github.com/CodingTakoyaki" target="_blank"><i class="fa fa-github"></i> GitHub</a>
-     <a class="btn btn-default" href="https://www.linkedin.com/in/amed-aguilar-shields-83a7a4160/" target="_blank"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
-   </div>
- </div>
-  
-   
-<div class="pageTwo container" id="p2">
-
-     <div class="col-md-6 text-center">
-     <h2>Portfolio</h2>
-       <p>
-         <a href="#"><img class="placeHold phLeft" src="https://smartrenewableheat.com/wp-content/uploads/2018/02/image-placeholder.png"/></a>
-         <a href="#"><img class="placeHold phLeft" src="https://smartrenewableheat.com/wp-content/uploads/2018/02/image-placeholder.png"/></a></p>
-   </div>
- 
-  <div class="col-md-6 text-center" id="marg1">
-    <p>
-      <a href="#"><img class="placeHold phRight" src="https://smartrenewableheat.com/wp-content/uploads/2018/02/image-placeholder.png"/></a>
-       <a href="#">
-     <img class="placeHold phRight" src="https://smartrenewableheat.com/wp-content/uploads/2018/02/image-placeholder.png"/></a></p>
+<div class="pageOne container" id="p1">
+  <div class="block text-center">
+    <h1>Hello there, welcome. </h1>
+    <p id="intro">My name is Amed, and I'm into coding and web development.<br>This is my portfolio page, where I showcase some of the things I've worked on.<br>Here are some of the places where you can find me:
+    </p>
+  </div>
+  <div class="btnList text-center btn-lg">
+    <a class="btn btn-default" href="https://twitter.com/AmedShields" target="_blank"><i class="fa fa-twitter"></i> Twitter </a>
+    <a class="btn btn-default" href="https://github.com/CodingTakoyaki" target="_blank"><i class="fa fa-github"></i> GitHub</a>
+    <a class="btn btn-default" href="https://www.linkedin.com/in/amed-aguilar-shields-83a7a4160/" target="_blank"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
   </div>
 </div>
-  
- 
-  <div class="pageThree container" id="p3">
-    <h3 class="text-center">[ Contact Me ]</h3>
-    <div class="row">
-      <div class="col-md-6 sizerino text-center">
-        <form action="#">
-     <input type="text" placeholder="Name"><br>
-     <input type="text" placeholder="Email Adress"><br>
-     <input type="text" placeholder="Phone Number"><br>
-     <input type="text" placeholder="Message"><br>
-        </form>
-        <button class="pull-left" type="submit">Send</button>
-          </div>
-      <div class="col-md-6 sizerino paddu">
-          If you have any questions, want to ask for my resume,<br> or for anything else really, feel free to send me an email at <a id="importanT">amedshields@gmail.com</a>.<br>
-        I tend to check it fairly often.
-      </div>
+
+<div class="pageTwo container" id="p2">
+  <h2>Portfolio</h2>
+  <div class="myBox">
+
+    <a href="#"><img class="img-responsive placeHold phMargin" src="https://smartrenewableheat.com/wp-content/uploads/2018/02/image-placeholder.png"/></a>
+    <a href="#"><img class="img-responsive placeHold phMargin" src="https://smartrenewableheat.com/wp-content/uploads/2018/02/image-placeholder.png"/></a>
+    <a href="#"><img class="img-responsive placeHold phMargin" src="https://smartrenewableheat.com/wp-content/uploads/2018/02/image-placeholder.png"/></a>
+    <a href="#">
+     <img class="img-responsive placeHold phMargin" src="https://smartrenewableheat.com/wp-content/uploads/2018/02/image-placeholder.png"/></a>
+  </div>
+</div>
+
+<div class="pageThree container" id="p3">
+  <h3 class="text-center">[ Contact Me ]</h3>
+  <div class="row">
+    <div class="col-xs-6 sizerino">
+      <form action="#">
+        <input type="text" placeholder="Name"><br>
+        <input type="text" placeholder="Email Adress"><br>
+        <input type="text" placeholder="Phone Number"><br>
+        <input type="text" placeholder="Message"><br>
+      </form>
+      <button type="submit">Send</button>
+    </div>
+    <div class="col-xs-6 sizerino paddu">
+      If you have any questions, want to ask for my resume, or for anything else really, feel free to send me an email at <a id="importanT">amedshields@gmail.com</a><br> I tend to check it fairly often.
     </div>
   </div>
-  
-  
- 
+</div>
 
-  <div class="footer pageFour text-center container-fluid">
-   <a id="under" href="https://codepen.io/codingoctopus/"> 
+<div class="footer pageFour text-center container-fluid">
+  <a id="under" href="https://codepen.io/codingoctopus/"> 
    <img id="octopus" src="https://orig00.deviantart.net/a2d2/f/2009/179/b/d/kawaii_octopus_by_yusuke_love.jpg" />
     </a>
-    <br>
-    Site made by <a id="nope" href="https://codepen.io/codingoctopus/">Takoyaki</a>.
+  <br> Made by <a id="nope" href="https://codepen.io/codingoctopus/">Takoyaki</a>.
 </div>
-  
+
 <div class="header">
-    <div class="container">
-       <ul class="nav nav-pills">
-   <li>
-    <a href="#">Takoyaki</a> 
-   </li>
-   <li class="pull-right">
-    <a href="#p3">Contact</a>
-   </li>
-   <li class="pull-right">
-    <a href="#p2">Portfolio</a>
-   </li>
-   <li class="pull-right">
-    <a href="#p1">What up</a>
-   </li>
- </ul>
-    </div>
+  <div class="container">
+    <ul class="nav nav-pills pull-right">
+      <li>
+        <a href="#p1">About</a>
+      </li>
+      <li>
+        <a href="#p2">Portfolio</a>
+      </li>
+      <li>
+        <a href="#p3">Contact</a>
+      </li>
+    </ul>
   </div>
+</div>
