@@ -1,0 +1,61 @@
+$(document).ready(function() {
+  var authors;
+  var randomQuote;
+
+  function getQuote() {
+    var quotes = [
+      "Wubba lubba dub dub!",
+      "Anyone who has never made a mistake has never tried anything new.",
+      "Life would be tragic if it was not funny.",
+      "I have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin, but by the content of their character.",
+      "We know what we are, but know not what we may be.",
+      "The secret of getting ahead is getting started.",
+      "Continuous effort - not strength or intelligence - is the key to unlocking our potential.",
+      "It is better to conquer yourself than to win a thousand battles. Then the victory is yours. It cannot be taken from you, not by angels or by demons, heaven or hell.",
+      "You must be the change you wish to see in the world.",
+      "Don't worry when you are not recognized, but strive to be worthy of recognition.",
+      "In heaven, all the interesting people are missing.",
+      "The first step is you have to say that you can.",
+      "Empty your mind, be formless, shapeless.  If you put water into a cup, it becomes the cup, you put it in a bottle it becomes the bottle, you put it in a tea pot it becomes the tea pot. Water can flow, or it can crash. Be water my friend.",
+      "Ogres are like onions.",
+      "Never gonna give you up. Never gonna let you down."
+    ];
+    var authors = [
+      "Rick Sanchez",
+      "Albert Einstein",
+      "Stephen Hawking",
+      "Martin Luther King, Jr.",
+      "William Shakespeare",
+      "Mark Twain",
+      "Winston Churchill",
+      "Siddhartha Gautama",
+      "Mahatma Gandhi",
+      "Abraham Lincoln",
+      "Friedrich Nietzsche",
+      "Will Smith",
+      "Bruce Lee",
+      "Shrek",
+      "Rick Astley"
+    ];
+    var randomNum = Math.floor(Math.random() * quotes.length);
+    var randomQuote = '"' + quotes[randomNum] + '"';
+    var randomAuthor = "-- " + authors[randomNum];
+    var twitterUrl =
+      "https://twitter.com/intent/tweet?text=" +
+      randomQuote +
+      " " +
+      randomAuthor;
+    $("#quote")
+      .addClass("quote")
+      .text(randomQuote);
+    $("#author").text(randomAuthor);
+    $(".tweetquote").html(
+      "<a href='" +
+        twitterUrl +
+        '\' class="btn-primary" target="_blank"><i class="fa fa-twitter"></i> Tweet this quote.  </a>'
+    );
+  }
+  $(".btn").on("click", function() {
+    getQuote();
+  });
+});
