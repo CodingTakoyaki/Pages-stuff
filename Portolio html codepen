@@ -19,14 +19,17 @@
 
 <div class="pageTwo container" id="p2">
   <h2>Portfolio</h2>
-  <div class="myBox">
-
-    <a href="#"><img class="img-responsive placeHold phMargin" src="https://smartrenewableheat.com/wp-content/uploads/2018/02/image-placeholder.png"/></a>
+  <div class="row">
+  <div class="myBox col-xs-offset-2 col-xs-8">
+<div class="col-md-12">
+    <a href="#"><img alt="Random Quote Generator" class="img-responsive placeHold phMargin" src="https://smartrenewableheat.com/wp-content/uploads/2018/02/image-placeholder.png"/></a>
     <a href="#"><img class="img-responsive placeHold phMargin" src="https://smartrenewableheat.com/wp-content/uploads/2018/02/image-placeholder.png"/></a>
     <a href="#"><img class="img-responsive placeHold phMargin" src="https://smartrenewableheat.com/wp-content/uploads/2018/02/image-placeholder.png"/></a>
     <a href="#">
      <img class="img-responsive placeHold phMargin" src="https://smartrenewableheat.com/wp-content/uploads/2018/02/image-placeholder.png"/></a>
+    </div>
   </div>
+</div>
 </div>
 
 <div class="pageThree container" id="p3">
@@ -49,7 +52,7 @@
 
 <div class="footer pageFour text-center container-fluid">
   <a id="under" href="https://codepen.io/codingoctopus/"> 
-   <img id="octopus" src="https://orig00.deviantart.net/a2d2/f/2009/179/b/d/kawaii_octopus_by_yusuke_love.jpg" />
+   <img id="octopus" alt="yusuke octopus" src="https://orig00.deviantart.net/a2d2/f/2009/179/b/d/kawaii_octopus_by_yusuke_love.jpg" />
     </a>
   <br> Made by <a id="nope" href="https://codepen.io/codingoctopus/">Takoyaki</a>.
 </div>
