@@ -1,0 +1,31 @@
+<head>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Crete+Round|Cabin+Condensed|Didact+Gothic|Sarala|Playball|Sanchez|Acme|Patua+One|Courgette" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row text-center">
+      <h1>Random quote generator</h1>
+
+      <div class="col-xs-12">
+        <img class="img-responsive" src="https://78.media.tumblr.com/a5e5b94fd7f758357ff882418b7c579d/tumblr_nn0ibjqzlm1u4oftio2_500.gif" /><br></div>
+    </div>
+    <div class="row text-center">
+
+      <div class="well col-xs-offset-1 col-xs-10">
+        <h4 id="quote">Whenever you click the <strong>button</strong>, you get a random quote.</h4>
+
+        <h5 id="author" class="text-right"></h5>
+        <div class="tweetquote text-center"></div>
+      </div>
+    </div>
+
+    <div class="col-xs-12 text-center">
+
+      <button id="getQuote" class="btn">Click this</button>
+
+    </div>
+
+</body>
