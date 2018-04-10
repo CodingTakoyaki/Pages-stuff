@@ -71,10 +71,11 @@ h3 {
   margin: auto;
 }
 .placeHold {
-  width: 840px;
-  height: auto;
   margin-top: 35px;
   margin-bottom: 35px;
+}
+.placeHold:hover{
+  opacity:.85;
 }
 .pageOne {
   background: url("https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=45fbe9046945ce711c299b8c6d26d998&auto=format&fit=crop&w=1462&q=80");
@@ -111,9 +112,10 @@ h3 {
   margin-left: -40px;
 }
 .myBox {
-  height: 700px;
+  height: 580px;
   overflow: auto;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  margin-top:20px;
 }
 
 #intro {
