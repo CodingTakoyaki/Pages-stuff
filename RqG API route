@@ -1,0 +1,28 @@
+$(document).ready(function() {
+  var url =
+    "https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=?&key=457653";
+  var twitterUrl;
+  function getQuote() {
+    $.getJSON(url, function(data) {
+      $("#quote")
+        .addClass("quote")
+        .text(data.quoteText);
+      var rqGenerated = data.quoteText;
+      var author = "- " + data.quoteAuthor;
+      $("#author").text(" -- " + data.quoteAuthor);
+      var twitterUrl =
+        "https://twitter.com/intent/tweet?text=" + rqGenerated + " " + author;
+      $(".tweetquote")
+        .html(
+          '<a href="' +
+            twitterUrl +
+            '" class="btn-primary" target="_blank"><i class="fa fa-twitter"></i> Tweet this quote.  </a>'
+        )
+        .css("margin-top", "16px");
+    });
+  }
+
+  $(".btn").on("click", function() {
+    getQuote();
+  });
+});
